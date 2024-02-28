@@ -32,8 +32,19 @@ choice = st.sidebar.selectbox("Menu",menu)
 if choice=="Home":
     st.subheader("Welcome To Chronic kidney disease (CKD) Prediction System")
     st.image('Home.jpg')
-    st.file('CKD-1.txt')
-        
+    
+    txt = st.text_area(
+    "Text to analyze",
+   " Chronic kidney disease (CKD) is a global health problem with high morbidity and mortality rate, and it induces other diseases."
+   " Since there are no obvious symptoms during the early stages of CKD, patients often fail to notice the disease."
+   " With early chronic kidney disease (CKD), people tend not to feel ill or notice any symptoms as kidney function deteriorates slowly over time." 
+   " Early detection of CKD enables patients to receive timely treatment to ameliorate the progression of this disease."
+   " In the deep learning model, classification is done on the basis of the attributes of CKD patients who is suffered from HIV." 
+    "These classification models achieves reasonable accuracy in Chronic Kidney Disease prediction."
+    )
+
+st.write(f'You wrote {len(txt)} characters.')
+    
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
     Password = st.sidebar.text_input("Password",type="password")
