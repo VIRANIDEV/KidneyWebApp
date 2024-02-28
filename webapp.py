@@ -43,7 +43,6 @@ if choice=="Home":
     "These classification models achieves reasonable accuracy in Chronic Kidney Disease prediction."
     )
 
-st.write(f'You wrote {len(txt)} characters.')
     
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
