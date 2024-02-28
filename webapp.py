@@ -43,7 +43,6 @@ if choice=="Home":
     "These classification models achieves reasonable accuracy in Chronic Kidney Disease prediction."
     )
 
-    st.image('image.jpg')
 
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
