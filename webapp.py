@@ -34,7 +34,7 @@ if choice=="Home":
     st.image('Home.jpg')
     
     txt = st.text_area(
-    "Chronic kidney disease",
+    "Text to analyze",
    " Chronic kidney disease (CKD) is a global health problem with high morbidity and mortality rate, and it induces other diseases."
    " Since there are no obvious symptoms during the early stages of CKD, patients often fail to notice the disease."
    " With early chronic kidney disease (CKD), people tend not to feel ill or notice any symptoms as kidney function deteriorates slowly over time." 
@@ -43,7 +43,8 @@ if choice=="Home":
     "These classification models achieves reasonable accuracy in Chronic Kidney Disease prediction."
     )
 
-
+st.write(f'You wrote {len(txt)} characters.')
+    
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
     Password = st.sidebar.text_input("Password",type="password")
