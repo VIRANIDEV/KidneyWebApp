@@ -44,6 +44,7 @@ if choice=="Home":
     )
 
 st.write(f'You wrote {len(txt)} characters.')
+st.image('image.jpg')
     
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
