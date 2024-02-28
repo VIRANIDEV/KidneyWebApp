@@ -1,4 +1,0 @@
-Chronic Kidney Disease in HIV patient
-The World Health Organization reported an approximately 58 million deaths worldwide is due to chronic kidney disease within the last decade [12].
-Chronic kidney disease (CKD) is a global health problem with high morbidity and mortality rate, and it induces other diseases. Since there are no obvious symptoms during the early stages of CKD, patients often fail to notice the disease. Early detection of CKD enables patients to receive timely treatment to ameliorate the progression of this disease [2].
-Chronic kidney disease (CKD) is a comorbidity of major clinical significance amongst people living with HIV (PLWHIV) and is associated with significant morbidity and mortality. The prevalence of CKD is rising, despite the widespread use of antiretroviral therapy (ART) and is increasingly related to prevalent non-infectious comorbidities (NICMs) and antiretroviral toxicity [1].
