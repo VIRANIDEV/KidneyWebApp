@@ -32,7 +32,9 @@ choice = st.sidebar.selectbox("Menu",menu)
 if choice=="Home":
     st.subheader("Welcome To Chronic kidney disease (CKD) Prediction System")
     st.image('Home.jpg')
-    
+    st.subheader("Chronic kidney disease CKD Prediction System")
+    st.text('CKD.txt')
+
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
     Password = st.sidebar.text_input("Password",type="password")
