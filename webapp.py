@@ -42,9 +42,9 @@ if choice=="Home":
    " In the deep learning model, classification is done on the basis of the attributes of CKD patients who is suffered from HIV." 
     "These classification models achieves reasonable accuracy in Chronic Kidney Disease prediction."
     )
-
-st.write(f'You wrote {len(txt)} characters.')
-st.image('image.jpg')
+    
+    st.write(f'You wrote {len(txt)} characters.')
+    st.image('image.jpg')
     
 if choice=="Login":
     Email = st.sidebar.text_input("Email")
